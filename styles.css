@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: hsl(257, 40%, 49%);
+    font-family: "Open Sans", sans-serif;
+}
+
+section {
+    border: solid black 2px;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+article {
+    margin: 3rem;
+    border: solid black 2px;
+    text-align: center;
+    /* min-height: 50vh; */
+}
+
+.left {
+    display: inline-block;
+    border: solid black 2px;
+    width: 49%;
+    margin-top: 3rem;
+}
+
+.right {
+    display: inline-block;
+    border: solid black 2px;
+    width: 49%;
+    text-align: left;
+    color: white;
+    vertical-align: top;
+    margin-top: 6rem;
+}
+
+p.text {
+    width: 50ch;
+}
+
+p.title {
+    font-size: 37px;
+    margin: 0px;
+}
+
+button {
+    padding: 0.8rem 3rem 0.8rem 3rem;
+    background-color: hsl(300, 69%, 71%);
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    font-family: "Open Sans", sans-serif;
+}
